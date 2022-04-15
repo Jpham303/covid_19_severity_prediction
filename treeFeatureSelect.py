@@ -38,7 +38,7 @@ def treeFeatureSelection(X_scaled, y_train, FeatureAmount, max_depth = None):
     test_score = sel_rfe_tree.score(X_scaled, y_train)
 
     # create model
-    model = RandomForestClassifier(n_estimators = 100, random_state=42)
+    model = RandomForestClassifier(n_estimators = 100, random_state=42, max_depth = max_depth)
     rfe_tree = RFE(estimator = model, n_features_to_select = FeatureAmount, step = 1)
 
     # evaluate model

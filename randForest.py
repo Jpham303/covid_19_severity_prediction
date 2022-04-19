@@ -36,7 +36,7 @@ def rand_forest(X_scaled, y_train, X, max_depth = None):
     scores = cross_val_score(model, X_scaled, y_train, scoring='accuracy', cv=10, n_jobs=-1)
 
     # reporting performance on full tree
-    print('Accuracy of full random forest on test data: %.3f || CV Accuracy: %.3f' % (test_score , mean(scores)))
+    print('Accuracy of full random forest on train data: %.3f || CV Accuracy: %.3f' % (test_score , mean(scores)))
 
 
     # get the importance of the resulting features.
@@ -52,3 +52,5 @@ def rand_forest(X_scaled, y_train, X, max_depth = None):
     plt.figure(figsize=(100,20))
     plt.xticks(rotation=45)
     sns.barplot(x="Features",y= "Importances", data=final_df)
+    
+    return model

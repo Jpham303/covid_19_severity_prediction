@@ -42,10 +42,10 @@ def treeFeatureSelection(X_scaled, y_train, FeatureAmount, max_depth = None):
     rfe_tree = RFE(estimator = model, n_features_to_select = FeatureAmount, step = 1)
 
     # evaluate model
-    scores = cross_val_score(rfe_tree, X_scaled, y_train, scoring = 'accuracy', cv = 10, n_jobs=-1)
+    scores = cross_val_score(rfe_tree, X_scaled, y_train, cv = 10, n_jobs=-1)
 
     # report performance
-    print('Accuracy of feature selected random forest on test data: %.3f || CV Accuracy: %.3f' % (test_score , mean(scores)))
+    print('Accuracy of feature selected random forest on train data: %.3f || CV Accuracy: %.3f' % (test_score , mean(scores)))
 
     return sel_rfe_tree
 

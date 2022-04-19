@@ -1,0 +1,159 @@
+5 Features, 3 Max Depth
+Accuracy of feature selected random forest on test data: 0.739 || CV Accuracy: 0.561
+5 Features, 4 Max Depth
+Accuracy of feature selected random forest on test data: 0.797 || CV Accuracy: 0.547
+5 Features, 5 Max Depth
+Accuracy of feature selected random forest on test data: 0.869 || CV Accuracy: 0.575
+5 Features, 6 Max Depth
+Accuracy of feature selected random forest on test data: 0.954 || CV Accuracy: 0.588
+5 Features, 7 Max Depth
+Accuracy of feature selected random forest on test data: 0.974 || CV Accuracy: 0.502
+5 Features, 8 Max Depth
+Accuracy of feature selected random forest on test data: 0.987 || CV Accuracy: 0.535
+5 Features, 9 Max Depth
+Accuracy of feature selected random forest on test data: 1.000 || CV Accuracy: 0.555
+5 Features, 10 Max Depth
+Accuracy of feature selected random forest on test data: 1.000 || CV Accuracy: 0.554
+5 Features, 11 Max Depth
+Accuracy of feature selected random forest on test data: 1.000 || CV Accuracy: 0.575
+5 Features, 12 Max Depth
+Accuracy of feature selected random forest on test data: 1.000 || CV Accuracy: 0.522
+5 Features, 13 Max Depth
+Accuracy of feature selected random forest on test data: 1.000 || CV Accuracy: 0.548
+5 Features, 14 Max Depth
+Accuracy of feature selected random forest on test data: 1.000 || CV Accuracy: 0.555
+6 Features, 3 Max Depth
+Accuracy of feature selected random forest on test data: 0.745 || CV Accuracy: 0.542
+6 Features, 4 Max Depth
+Accuracy of feature selected random forest on test data: 0.810 || CV Accuracy: 0.542
+6 Features, 5 Max Depth
+Accuracy of feature selected random forest on test data: 0.876 || CV Accuracy: 0.555
+6 Features, 6 Max Depth
+Accuracy of feature selected random forest on test data: 0.980 || CV Accuracy: 0.555
+6 Features, 7 Max Depth
+Accuracy of feature selected random forest on test data: 0.980 || CV Accuracy: 0.535
+6 Features, 8 Max Depth
+Accuracy of feature selected random forest on test data: 1.000 || CV Accuracy: 0.515
+6 Features, 9 Max Depth
+Accuracy of feature selected random forest on test data: 1.000 || CV Accuracy: 0.542
+6 Features, 10 Max Depth
+Accuracy of feature selected random forest on test data: 1.000 || CV Accuracy: 0.535
+6 Features, 11 Max Depth
+Accuracy of feature selected random forest on test data: 1.000 || CV Accuracy: 0.548
+6 Features, 12 Max Depth
+Accuracy of feature selected random forest on test data: 1.000 || CV Accuracy: 0.517
+6 Features, 13 Max Depth
+Accuracy of feature selected random forest on test data: 1.000 || CV Accuracy: 0.549
+6 Features, 14 Max Depth
+Accuracy of feature selected random forest on test data: 1.000 || CV Accuracy: 0.548
+7 Features, 3 Max Depth
+Accuracy of feature selected random forest on test data: 0.725 || CV Accuracy: 0.542
+7 Features, 4 Max Depth
+Accuracy of feature selected random forest on test data: 0.791 || CV Accuracy: 0.548
+7 Features, 5 Max Depth
+Accuracy of feature selected random forest on test data: 0.869 || CV Accuracy: 0.547
+7 Features, 6 Max Depth
+Accuracy of feature selected random forest on test data: 0.967 || CV Accuracy: 0.529
+7 Features, 7 Max Depth
+Accuracy of feature selected random forest on test data: 0.987 || CV Accuracy: 0.561
+7 Features, 8 Max Depth
+Accuracy of feature selected random forest on test data: 0.993 || CV Accuracy: 0.502
+7 Features, 9 Max Depth
+Accuracy of feature selected random forest on test data: 1.000 || CV Accuracy: 0.535
+7 Features, 10 Max Depth
+Accuracy of feature selected random forest on test data: 1.000 || CV Accuracy: 0.508
+7 Features, 11 Max Depth
+Accuracy of feature selected random forest on test data: 1.000 || CV Accuracy: 0.562
+7 Features, 12 Max Depth
+Accuracy of feature selected random forest on test data: 1.000 || CV Accuracy: 0.537
+7 Features, 13 Max Depth
+Accuracy of feature selected random forest on test data: 1.000 || CV Accuracy: 0.509
+7 Features, 14 Max Depth
+Accuracy of feature selected random forest on test data: 1.000 || CV Accuracy: 0.542
+8 Features, 3 Max Depth
+Accuracy of feature selected random forest on test data: 0.719 || CV Accuracy: 0.535
+8 Features, 4 Max Depth
+Accuracy of feature selected random forest on test data: 0.804 || CV Accuracy: 0.542
+8 Features, 5 Max Depth
+Accuracy of feature selected random forest on test data: 0.869 || CV Accuracy: 0.554
+8 Features, 6 Max Depth
+Accuracy of feature selected random forest on test data: 0.974 || CV Accuracy: 0.542
+8 Features, 7 Max Depth
+Accuracy of feature selected random forest on test data: 0.993 || CV Accuracy: 0.521
+8 Features, 8 Max Depth
+Accuracy of feature selected random forest on test data: 1.000 || CV Accuracy: 0.523
+8 Features, 9 Max Depth
+Accuracy of feature selected random forest on test data: 1.000 || CV Accuracy: 0.522
+8 Features, 10 Max Depth
+Accuracy of feature selected random forest on test data: 1.000 || CV Accuracy: 0.535
+8 Features, 11 Max Depth
+Accuracy of feature selected random forest on test data: 1.000 || CV Accuracy: 0.535
+8 Features, 12 Max Depth
+Accuracy of feature selected random forest on test data: 1.000 || CV Accuracy: 0.516
+8 Features, 13 Max Depth
+Accuracy of feature selected random forest on test data: 1.000 || CV Accuracy: 0.549
+8 Features, 14 Max Depth
+Accuracy of feature selected random forest on test data: 1.000 || CV Accuracy: 0.522
+9 Features, 3 Max Depth
+Accuracy of feature selected random forest on test data: 0.739 || CV Accuracy: 0.536
+9 Features, 4 Max Depth
+Accuracy of feature selected random forest on test data: 0.797 || CV Accuracy: 0.529
+9 Features, 5 Max Depth
+Accuracy of feature selected random forest on test data: 0.941 || CV Accuracy: 0.549
+9 Features, 6 Max Depth
+Accuracy of feature selected random forest on test data: 0.974 || CV Accuracy: 0.529
+9 Features, 7 Max Depth
+Accuracy of feature selected random forest on test data: 0.993 || CV Accuracy: 0.541
+9 Features, 8 Max Depth
+Accuracy of feature selected random forest on test data: 1.000 || CV Accuracy: 0.542
+9 Features, 9 Max Depth
+Accuracy of feature selected random forest on test data: 1.000 || CV Accuracy: 0.516
+9 Features, 10 Max Depth
+Accuracy of feature selected random forest on test data: 1.000 || CV Accuracy: 0.529
+9 Features, 11 Max Depth
+Accuracy of feature selected random forest on test data: 1.000 || CV Accuracy: 0.529
+9 Features, 12 Max Depth
+Accuracy of feature selected random forest on test data: 1.000 || CV Accuracy: 0.510
+9 Features, 13 Max Depth
+Accuracy of feature selected random forest on test data: 1.000 || CV Accuracy: 0.515
+9 Features, 14 Max Depth
+Accuracy of feature selected random forest on test data: 1.000 || CV Accuracy: 0.547
+10 Features, 3 Max Depth
+Accuracy of feature selected random forest on test data: 0.725 || CV Accuracy: 0.542
+10 Features, 4 Max Depth
+Accuracy of feature selected random forest on test data: 0.804 || CV Accuracy: 0.541
+10 Features, 5 Max Depth
+Accuracy of feature selected random forest on test data: 0.922 || CV Accuracy: 0.528
+10 Features, 6 Max Depth
+Accuracy of feature selected random forest on test data: 0.967 || CV Accuracy: 0.515
+10 Features, 7 Max Depth
+Accuracy of feature selected random forest on test data: 0.993 || CV Accuracy: 0.515
+10 Features, 8 Max Depth
+Accuracy of feature selected random forest on test data: 0.993 || CV Accuracy: 0.515
+10 Features, 9 Max Depth
+Accuracy of feature selected random forest on test data: 1.000 || CV Accuracy: 0.516
+10 Features, 10 Max Depth
+Accuracy of feature selected random forest on test data: 1.000 || CV Accuracy: 0.547
+10 Features, 11 Max Depth
+Accuracy of feature selected random forest on test data: 1.000 || CV Accuracy: 0.515
+10 Features, 12 Max Depth
+Accuracy of feature selected random forest on test data: 1.000 || CV Accuracy: 0.510
+10 Features, 13 Max Depth
+Accuracy of feature selected random forest on test data: 1.000 || CV Accuracy: 0.503
+10 Features, 14 Max Depth
+Accuracy of feature selected random forest on test data: 1.000 || CV Accuracy: 0.489
+11 Features, 3 Max Depth
+Accuracy of feature selected random forest on test data: 0.739 || CV Accuracy: 0.542
+11 Features, 4 Max Depth
+Accuracy of feature selected random forest on test data: 0.830 || CV Accuracy: 0.522
+11 Features, 5 Max Depth
+Accuracy of feature selected random forest on test data: 0.935 || CV Accuracy: 0.529
+11 Features, 6 Max Depth
+Accuracy of feature selected random forest on test data: 0.980 || CV Accuracy: 0.522
+11 Features, 7 Max Depth
+Accuracy of feature selected random forest on test data: 1.000 || CV Accuracy: 0.495
+11 Features, 8 Max Depth
+Accuracy of feature selected random forest on test data: 0.993 || CV Accuracy: 0.522
+11 Features, 9 Max Depth
+Accuracy of feature selected random forest on test data: 1.000 || CV Accuracy: 0.535
+11 Features, 10 Max Depth

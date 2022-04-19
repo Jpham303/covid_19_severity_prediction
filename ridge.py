@@ -5,8 +5,8 @@ from sklearn.model_selection import cross_val_score
 from sklearn.linear_model import LogisticRegression
 
 
-def ridge_reg_pred(X_train_selected_ANOVA, y_train):
-	clf = LogisticRegression(penalty = 'l2', max_iter = 150, random_state=0).fit(X_train_selected_ANOVA, y_train)
+def ridge_reg_pred(X_train_selected_ANOVA, y_train, max_iter = 100):
+	clf = LogisticRegression(penalty = 'l2', max_iter = max_iter, random_state=0).fit(X_train_selected_ANOVA, y_train)
 	test_score = clf.score(X_train_selected_ANOVA, y_train)
 
 	# prepare the cross-validation procedure

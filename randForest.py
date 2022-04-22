@@ -16,7 +16,7 @@ from numpy import mean
 from sklearn.model_selection import KFold
 from sklearn.model_selection import cross_val_score
 
-def rand_forest(X_scaled, y_train, X, max_depth = None):
+def rand_forest(X_scaled, y_train, X, max_depth = None, n_estimators = 100):
 	# getting radom forest without feature selection 
     # Setting RF Model
     # clf = RandomForestClassifier(n_estimators = 100, random_state=0)
@@ -28,7 +28,7 @@ def rand_forest(X_scaled, y_train, X, max_depth = None):
     # cv = KFold(n_splits = 10, random_state = 1, shuffle = True)
 
     # create model
-    model = RandomForestClassifier(n_estimators = 100, random_state=0, max_depth = max_depth)
+    model = RandomForestClassifier(n_estimators = n_estimators, random_state=0, max_depth = max_depth, oob_score = True)
     model.fit(X_scaled, y_train)
     test_score = model.score(X_scaled, y_train)
 

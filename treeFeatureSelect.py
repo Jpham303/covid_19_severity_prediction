@@ -27,9 +27,9 @@ from sklearn.model_selection import KFold
 from sklearn.model_selection import cross_val_score
 from sklearn.linear_model import LogisticRegression
 
-def treeFeatureSelection(X_scaled, y_train, FeatureAmount, max_depth = None): 
-    model = RandomForestClassifier(n_estimators=68, random_state=0, max_depth = max_depth)
-
+def treeFeatureSelection(X_scaled, y_train, FeatureAmount, max_depth = None, n_estimators = 100): 
+    model = RandomForestClassifier(n_estimators = n_estimators, random_state=0, max_depth = max_depth, oob_score = True)
+    model.fit(X_scaled, y_train)
     # use RFE to eleminate the less importance features
     sel_rfe_tree = RFE(estimator = model, n_features_to_select = FeatureAmount, step = 1)
     sel_rfe_tree.fit_transform(X_scaled, y_train)
@@ -38,16 +38,16 @@ def treeFeatureSelection(X_scaled, y_train, FeatureAmount, max_depth = None):
     test_score = sel_rfe_tree.score(X_scaled, y_train)
 
     # create model
-    model = RandomForestClassifier(n_estimators = 68, random_state=0, max_depth = max_depth)
-    rfe_tree = RFE(estimator = model, n_features_to_select = FeatureAmount, step = 1)
+    #model = RandomForestClassifier(n_estimators = n_estimators, random_state=0, max_depth = max_depth)
+    #rfe_tree = RFE(estimator = model, n_features_to_select = FeatureAmount, step = 1)
 
     # evaluate model
-    scores = cross_val_score(rfe_tree, X_scaled, y_train, cv = 10, n_jobs=-1)
+    #scores = cross_val_score(rfe_tree, X_scaled, y_train, cv = 10, n_jobs=-1)
 
     # report performance
-    print('Accuracy of feature selected random forest on train data: %.3f || CV Accuracy: %.3f' % (test_score , mean(scores)))
+    print('Accuracy of feature selected random forest on train data: %.3f || OOB Accuracy: %.3f' % (test_score , model.oob_score_))
 
-    return sel_rfe_tree
+    return sel_rfe_tree 
 
 
 
